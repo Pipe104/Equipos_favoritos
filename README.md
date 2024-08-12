@@ -1,1 +1,3 @@
-Poner boton y una investigacion con css, html, js, usando viñetas en html
+- Poner colores de fondo en los cuadros de la tabla
+- Revisar que son los eventos en html
+- Hacer otra tabla que me lea datos con una etiqueta: <input name = "hola"> se puede poner id o name a esta etiqueta se le puede poner el tipo de dato que va a recibir
