@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Equipos Favoritos
+        </title>
+        <style>
+
+            /*Colores de los titulos*/
+            .Titulo1{
+                color:darkorange
+            }
+            .liv{
+                color:red
+            }
+            .real{
+                color:gold
+            }
+            .city{
+                color:aqua
+            }
+
+            /*Diferentes colores de los fondos de las tablas*/
+            tr:nth-child(1) {
+                background-color: black;
+            }
+
+            tr:nth-child(2),
+            tr:nth-child(3),
+            tr:nth-child(4),
+            tr:nth-child(5){
+                background-color: lightblue;
+            }
+
+            tr:nth-child(6){
+                background-color: crimson;
+            }
+            
+            /*Tamaño de las tablas*/
+            table {
+                width: 900px; 
+                height: 300px; 
+                table-layout: fixed; 
+            }
+
+            /*Tamaño del cuadro de los input*/
+            input[type="text"] {
+                width: 300px;
+            } 
+
+            /*Color del primer parrafo*/
+            
+            .texto{
+                color: white;
+            }
+
+            html{
+                background-image: url(../imagenes/campo.jpg)
+        
+            }
+
+            or{
+                color: white;
+            }
+            
+            or li::marker{
+                color: white;
+            }
+
+        </style>
+
+        <script src='funciones.js' language='JavaScript1.2'></script>
+
+    </head>
+    <body>
+        <center>
+            <H1 class = "Titulo1">
+                Mis equipos Favoritos
+            </H1>
+            <p class = "texto"> 
+                <strong>En esta pagina se encontraran 3 tablas de los equipos favoritos de Felipe Gil <br>
+                    Los 3 equipos son:</strong>
+                
+            </p>
+            <or>
+                <strong>
+                    <li>Real madrid</li>
+                    <li>Manchester city</li>
+                    <li>Liverpool</li>
+                </strong>
+                
+            </or>
+            
+        </center>
+        
+
+        <center>
+            <!-- Esta primera tabla consta de 5 filas y 3 columnas, aqui se dicen mis tres jugadores favoritos del Real Madrid-->
+            <table border = "1">
+                <tr >
+                    <td colspan = "3">
+                        <h1 class="real">
+                            <center> 
+                                Real Madrid
+                            </center>
+                            
+                        </h1>
+                    </td>
+                </tr>
+                <!-- Primer jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Kylian Mbappe
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Delantero
+                        </p>
+                    </td>
+                    <td rowspan = "4">
+                        <center>
+                            <img src = "../imagenes/Real_Madrid_CF.svg.jpg"/>
+                        </center>
+                        
+                    </td>
+                </tr>
+                <!-- Segundo Jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Vinicius Junior
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Delantero
+                        </p>
+                    </td>
+                </tr>
+                <!-- Tercer Jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Luka Modric
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Centrocampista
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- Cuarto Jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Thibaut Courtois
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Portero
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan = "3"> 
+                        <center>
+                            <a href = "https://www.realmadrid.com/es-ES">
+                                <button>
+                                    Mas sobre el club
+                                </button>
+                            </a>
+                            
+                        </center>   
+                     </td>
+                </tr>
+                
+            </table>
+        </center>
+
+        <br>
+
+        <center>
+            <!-- Esta segunda tabla consta de 5 filas y 3 columnas, aqui se dicen mis tres jugadores favoritos del Manchester city-->
+            <table border = "1">
+                <tr>
+                    <td colspan = "3">
+                        <h1 class="city">
+                            <center> 
+                                Manchester city
+                            </center>
+                            
+                        </h1>
+                    </td>
+                </tr>
+                <!-- Primer jugador -->
+                <tr>
+                    <td rowspan = "4">
+                        <center>
+                            <img src = "../imagenes/Manchester_City_FC_badge.svg.jpg"/>
+                        </center>
+                    </td>
+                    <td>
+                        <p>
+                            Erling Haaland
+                        </p>
+                    </td>
+                    
+                    <td>
+                        <p>
+                            Delantero
+                        </p>
+                    </td>
+                    
+                </tr>
+                <!-- Segundo Jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Phil Foden
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Centrocampista
+                        </p>
+                    </td>
+                </tr>
+                <!-- Tercer Jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Kevin De Bruyne
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Centrocampista
+                        </p>
+                    </td>
+                </tr>
+                <!--Cuarto Jugador-->
+                <tr>
+                    <td>
+                        <p>
+                            Jack Grealish
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Centrocampista
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan = "3"> 
+                        <center>
+
+                            <a href ="https://es.mancity.com">
+                                <button>
+                                    Mas sobre el club
+                                </button>
+                            </a>
+                        </center>   
+                     </td>
+                </tr>
+            </table>
+        </center>
+
+        <br>
+
+        <center>
+            <!-- Esta tercera tabla consta de 4 filas y 3 columnas, aqui se dicen mis tres jugadores favoritos del liverpool-->
+            <table border = "1">
+                <tr>
+                    <td colspan = "3">
+                        <h1 class="liv">
+                            <center> 
+                                Liverpool
+                            </center>
+                            
+                        </h1>
+                    </td>
+                </tr>
+                <!-- Primer jugador -->
+                <tr>
+                    
+                    <td>
+                        <p>
+                            Luis Diaz
+                        </p>
+                    </td>
+                    <td rowspan = "4">
+                        <center>
+                            <img src="../imagenes/Liverpool_FC.svg.jpg"/>
+                        </center>
+                        
+                    </td>
+                    <td>
+                        <p>
+                            Extremo izquierdo
+                        </p>
+                    </td>
+                    
+                </tr>
+
+                <!-- Segundo Jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Mohamed Salah
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Extremo derecho
+                        </p>
+                    </td>
+                    
+                </tr>
+
+                <!-- Tercer Jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Alexander Arnold
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Lateral defensivo
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- Cuarto jugador -->
+                <tr>
+                    <td>
+                        <p>
+                            Alexis Mac Allister
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Mediocampista
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan = "3"> 
+                        <center>
+                            <a href = "https://www.liverpoolfc.com/">
+                                <button>
+                                    Mas sobre el club
+                                </button>
+                            </a>
+                        </center>   
+                     </td>
+                </tr>
+                
+            </table>
+        </center>
+
+
+        <center>
+
+        <form method="get" action="futbol2.html">
+        <!-- Esta ultima tabla consta de 4 filas y 3 columnas, aqui se recibiran los datos que me digite un usuario-->
+            <table border = "1">
+                <br>
+                <tr class = "liv">
+                    <td colspan="2">
+                        <center>
+                            <h1>Tus jugadores favoritos</h1>
+                        </center>        
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Nombre
+                    </td>
+                    <td>
+                        Equipo
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="nombre1" id="nombre1" placeholder="Nombre de tu jugador favorito">
+                    </td>
+                    <td>
+                        <input type="text" name="equipo1" id="equipo1" placeholder="Nombre del equipo en el que juega">
+                    </td>    
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" name="nombre2" id="nombre2" placeholder="Nombre de tu jugador favorito">
+                    </td>
+                    <td>
+                        <input type="text" name="equipo2" id="equipo2" placeholder="Nombre del equipo en el que juega">
+                    </td>
+                </tr>
+
+                <tr >
+                    <td>
+                        <input type="text" name="nombre3" id="nombre3" placeholder="Nombre de tu jugador favorito">
+                    </td>
+                    <td>
+                        <input type="text" name="equipo3" id="equipo3" placeholder="Nombre del equipo en el que juega">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan ="2">
+                        <center> 
+                            <input id="guardar" value="Guardar" type="submit" onclick="validar()">
+                        </center>    
+                    </td>
+                </tr>
+    
+            </table>
+        </form>
+            
+    </center>
+    <strong>
+        <!-- Inicio de la investigacion de css, JS y html -->
+        <h1 class = "texto">
+            <center>
+                <br>
+                Investigacion sobre Css, JS Y HTML
+                
+            </center>
+        </h1>
+
+        <h2 class = "texto">
+            CSS:
+        </h2>
+        <h3 class = "texto">
+            ¿Que es?
+            <br>
+        </h3>
+        <or>
+            <li>
+                CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). 
+            </li>
+            <li>
+                Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita.
+            </li>
+            <li>
+                Se les denomina hojas de estilo «en cascada» porque puedes tener varias y una de ellas con las propiedades heredadas (o «en cascada») de otras.
+            </li>
+        </or>
+
+        <h3 class = "texto">
+            ¿Para que sirve?
+            <br>
+        </h3>
+        <or>
+            <li>
+                Con CSS, puedes crear reglas para decirle a tu sitio web cómo quieres mostrar la información y guardar los comandos para elementos de estilo (como fuentes, colores, tamaños, etc.) separados de los que configuran el contenido.
+            </li>
+            <li>
+                Puedes crear formatos específicos útiles para comunicar tus ideas y producir experiencias más agradables, en el aspecto visual, para los usuarios del sitio web.
+            </li>
+        </or>
+
+        <h3 class = "texto">
+            Ventajas de usar Css
+            <br>
+        </h3>
+        <or>
+            <li>
+                Separación de la estructura y la presentación.
+            </li>
+            <li>
+                Consistencia y mantenibilidad.
+            </li>
+            <li>
+                Eficiencia en el rendimiento.
+            </li>
+            <li>
+                Flexibilidad y control.
+            </li>
+        </or>
+
+
+        <h2 class = "texto">
+            <br>
+            Java Script (JS)
+        </h2>
+        <h3 class = "texto">
+            ¿Que es?
+            <br>
+        </h3>
+        <or>
+            <li>
+                JavaScript es un lenguaje de programación interpretado, orientado a objetos y dinámico.
+            </li>
+            <li>
+                Se utiliza principalmente para el desarrollo de páginas web interactivas.
+            </li>
+            <h3 class = "texto">
+                ¿Para que sirve?
+            </h3>
+            <li>
+                Desarrollo de aplicaciones web y móviles
+            </li>
+            <li>
+                Desarrollo del lado del servidor
+            </li>
+            <li>
+                Juegos en el navegador
+            </li>
+            <li>
+                Automatización de tareas
+            </li>
+        </or>
+
+        <h3 class = "texto">
+            Ventajas
+            <br>
+        </h3>
+        <or>
+            <li>
+                Automatización de tareas
+            </li>
+            <li>
+                Detección y respuesta a eventos
+            </li>
+            <li>
+                Manipulación sencilla del DOM
+            </li>
+            <li>
+                Innovación en la carga de contenido dinámico
+            </li>
+            <li>
+                Animación y efectos visuales para los sitios web
+            </li>
+        </or>
+
+
+        <h2 class = "texto">
+            <br>
+            HTML
+        </h2>
+        <h3 class = "texto">
+            ¿Que es?
+            <br>
+        </h3>
+        <or>
+            <li>
+                HTML significa “Hyper Text Markup Language” (Lenguaje de Marcado de Hipertexto) y, junto a Java y CSS, es uno de los lenguajes de marcado basados en texto más utilizados en el mundo
+            </li>
+            <li>
+                La sintaxis de HTML es uniforme y textual, y consta siempre de una etiqueta de inicio y otra de fin.
+            </li>
+            <li>
+                HTML no puede utilizarse para crear algoritmos, tareas, condiciones o bucles debido a su falta de estructura de comandos. Por tanto, HTML pertenece a los lenguajes de marcado.
+            </li>
+        </or>
+
+        <h3 class = "texto">
+            ¿Para que sirve?
+            <br>
+        </h3>
+        <or>
+            <li>
+                Describir el diseño y el aspecto de una página web
+            </li>
+            <li>
+                Describir el diseño y el aspecto de una página web
+            </li>
+            <li>
+                Navegar dentro de una página web mediante hipervínculos
+            </li>
+            <li>
+                Ejecución de contenidos de página dinámicos mediante referencias a hojas de estilo CSS o archivos JavaScript
+            </li>
+        </or>
+    </strong>
+    
+        
+    </body>
+</html>

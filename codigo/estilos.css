@@ -1,0 +1,52 @@
+/*Colores de los titulos*/
+.Titulo1{
+    color:darkorange
+}
+
+.liv{
+    color:red
+}
+.real{
+    color:gold
+}
+.city{
+    color:aqua
+}
+
+/*Colores de los fondos de las tablas*/
+tr:nth-child(2),
+tr:nth-child(3),
+tr:nth-child(4),
+tr:nth-child(5){
+    background-color: lightblue;
+}
+
+tr:nth-child(6){
+    background-color: red;
+}
+
+tr:nth-child(1){
+    background-color: black;
+}
+
+/*Tamaño de las tablas*/
+table {
+    width: 900px; 
+    height: 300px; 
+    table-layout: fixed; 
+}
+
+/*Tamaño del cuadro de los input*/
+input[type="text"] {
+    width: 300px;
+} 
+
+/*Imagen de fondo de la pagina*/
+html{
+    background-image: url(../imagenes/campo.jpeg);
+}
+
+/*Color primer parrafo*/
+.Texto{
+    color: white
+}
