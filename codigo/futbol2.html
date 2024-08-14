@@ -25,6 +25,68 @@
         </center>
 
         <center>
+
+            <form method="get" action="futbol2.html">
+            <!-- Esta tabla consta de 4 filas y 3 columnas, aqui se recibiran los datos que me digite un usuario-->
+                <table border = "1">
+                    <br>
+                    <tr class = "liv">
+                        <td colspan="2">
+                            <center>
+                                <h1>Tus jugadores favoritos</h1>
+                            </center>        
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            Nombre
+                        </td>
+                        <td>
+                            Equipo
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="nombre2" id="nombre1" placeholder="Nombre de tu jugador favorito..." required>
+                        </td>
+                        <td>
+                            <input type="text" name="equipo1" id="equipo1" placeholder="Nombre del equipo en el que juega..." required>
+                        </td>    
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <input type="text" name="nombre2" id="nombre2" placeholder="Nombre de tu jugador favorito..." required>
+                        </td>
+                        <td>
+                            <input type="text" name="equipo2" id="equipo2" placeholder="Nombre del equipo en el que juega..." required>
+                        </td>
+                    </tr>
+    
+                    <tr >
+                        <td>
+                            <input type="text" name="nombre3" id="nombre3" placeholder="Nombre de tu jugador favorito..." required>
+                        </td>
+                        <td>
+                            <input type="text" name="equipo3" id="equipo3" placeholder="Nombre del equipo en el que juega..." required>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td colspan ="2">
+                            <center> 
+                                <input id="guardar" value="Guardar" type="submit" onclick="validar()">
+                            </center>    
+                        </td>
+                    </tr>
+        
+                </table>
+            </form>
+                
+        </center>
+
+        <center>
             <!-- Esta primera tabla consta de 5 filas y 3 columnas, aqui se dicen mis tres jugadores favoritos del Real Madrid-->
             <table border = "1">
                 <tr >
