@@ -14,3 +14,14 @@ window.onload = function() {
     document.getElementById("equipo2").textContent = equipo2;
     document.getElementById("equipo3").textContent = equipo3;
 }
+
+function cambiarEstilo(){
+    const hojaEstilo = document.getElementById('estilo');
+    if (hojaEstilo.getAttribute('href') === 'estilos.css'){
+        hojaEstilo.setAttribute('href' , 'estilos2.css');
+    }
+    else{
+        hojaEstilo.setAttribute('href' , 'estilos.css');
+    }
+
+}

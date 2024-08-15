@@ -3,7 +3,7 @@
         <title>
             Equipos de futbol 2
         </title>
-        <link rel = "stylesheet" href = "estilos.css"/>
+        <link id = 'estilo' rel = "stylesheet" href = "estilos.css"/>
         <script src = 'funciones_pag2.js' language='JavaScript1.2'></script>
     </head>
     <body>
@@ -25,7 +25,11 @@
             </strong>
         </center>
 
+
+
         <center>
+            <br>
+            <button onclick= "cambiarEstilo()" >Cambiar estilo</button>    
 
             <form method="get" action="futbol2.html">
             <!-- Esta tabla consta de 4 filas y 3 columnas, aqui se recibiran los datos que me digite un usuario-->
@@ -38,15 +42,20 @@
                             </center>        
                         </td>
                     </tr>
+                        <tr>
+                            <td>
+                                <strong>
+                                    Nombre
+                                </strong>
+                            </td>
+                            <td>
+                                <strong>
+                                    Equipo
+                                </strong>
+                            </td>
+                        </tr>
+
                     
-                    <tr>
-                        <td>
-                            Nombre
-                        </td>
-                        <td>
-                            Equipo
-                        </td>
-                    </tr>
                     <tr>
                         <td>
                             <p><span id="nombre1"></span></p>
@@ -73,15 +82,7 @@
                             <p><span id = "equipo3"></span></p>
                         </td>
                     </tr>
-    
-                    <tr>
-                        <td colspan ="2">
-                            <center> 
-                                <input id="guardar" value="Guardar" type="submit" onclick="validar()">
-                            </center>    
-                        </td>
-                    </tr>
-        
+
                 </table>
             </form>
                 

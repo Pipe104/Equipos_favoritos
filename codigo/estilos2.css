@@ -1,6 +1,6 @@
 /*Colores de los titulos*/
 .Titulo1{
-    color:darkorange
+    color:rgba(2, 230, 255)
 }
 
 .liv{
@@ -18,15 +18,15 @@ tr:nth-child(2),
 tr:nth-child(3),
 tr:nth-child(4),
 tr:nth-child(5){
-    background-color: lightblue;
+    background-color: rgb(241, 146, 15);
 }
 
 tr:nth-child(6){
-    background-color: red;
+    background-color: rgb(46, 204, 71);
 }
 
 tr:nth-child(1){
-    background-color: black;
+    background-color: rgb(34, 98, 219);
 }
 
 /*Tamaño de las tablas*/
@@ -39,7 +39,7 @@ table {
 /*Tamaño del cuadro de los input*/
 input[type="text"] {
     width: 300px;
-}
+} 
 
 button{
     width: 300px;
@@ -47,7 +47,7 @@ button{
 
 /*Imagen de fondo de la pagina*/
 html{
-    background-image: url(../imagenes/campo.jpeg);
+    background-image: url(../imagenes/fondo.jpeg);
 }
 
 /*Color primer parrafo*/
